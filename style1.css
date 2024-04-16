@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Define styles for the elements */
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Apply different border styles to each element */
+.element:nth-child(1) {
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.element:nth-child(2) {
+    border: 4px dashed #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.element:nth-child(3) {
+    border: 6px double #00ff00;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+}
+
+/* Additional styles for paragraphs and images */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid #0000ff;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 255, 0.5);
+    margin-top: 20px;
+}
